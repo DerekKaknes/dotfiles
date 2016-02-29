@@ -10,7 +10,7 @@ Set `zsh` as your login shell:
 
 Change to your home directory and clone this repo, then change to the new dotfiles directory.
 
-    cd && git clone https://github.com/jsteiner/dotfiles.git
+    cd && git clone https://github.com/derekkaknes/dotfiles.git
     cd dotfiles
 
 Download submodules
@@ -62,10 +62,10 @@ Configure git. Create a `~/.gitconfig.local` file and replace the following with
 your information:
 
     [user]
-        name = 'Josh Steiner'
-        email = 'josh@jsteiner.me'
+        name = 'Derek Kaknes'
+        email = 'derek.kaknes@gmail.com'
     [github]
-        user = jsteiner
+        user = derekkaknes
 
 
 If you like what you see in osx-settings, run `./osx-settings`.
