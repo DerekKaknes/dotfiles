@@ -3,7 +3,10 @@ autoload -U compinit
 compinit
 
 # use vim as an editor
-export EDITOR=nvim
+export EDITOR=vim
+
+# force load zprofile
+source ~/.zprofile
 
 # awesome cd movements from zshkit
 export dirstacksize=5
